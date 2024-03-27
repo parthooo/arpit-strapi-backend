@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_arc_ars",
+  "info": {
+    "displayName": "A_Rate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "A_Rate_Number": {
+      "type": "integer",
+      "max": 5,
+      "min": 1
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "A_Review": {
+      "type": "richtext"
+    }
+  }
+}

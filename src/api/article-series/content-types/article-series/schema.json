@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_series_groups",
+  "info": {
+    "singularName": "article-series",
+    "pluralName": "article-series-groups",
+    "displayName": "articleSeriesGroup",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seriesTitle": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "article_series_group"
+    }
+  }
+}
