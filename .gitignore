@@ -105,8 +105,8 @@ coverage
 ############################
 # Strapi
 ############################
-.env.production
-.env
+# .env.production
+# .env
 license.txt
 exports
 *.cache
